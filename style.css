@@ -24,6 +24,7 @@
 
 nav{
     position: fixed;
+    z-index: 2;
     width: 100%;
     height: 10%;
     padding: 1px 8px;
@@ -100,7 +101,14 @@ nav ul li a:hover {
 }
 .container-sinnup{
     width: 35%;
+}
 
+.container-carrosel{
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+    height: 900px;
+    overflow: hidden;
 }
 
 .h1{
@@ -156,15 +164,8 @@ button a{
     color:black !important;
 }
 
-.section-video{
-    width: 100%;
-    margin: 0%;
-    background-color: #f8f4eb;
-}
-
 .video-div{
     width: 50%;
-
 }
 
 img {
@@ -194,16 +195,12 @@ img {
 
 .div-video-infor{
     width: 100%;
-    height: 100vh;
 }
 
 .div-container-infor{
     font-family: Snell Roundhand, cursive !important;
-    position: relative;
-    bottom: 0;
     background: rgba(0, 0, 0, 0.9);
     color: #f1f1f1;
-    width: 100%;
     padding: 15px;
 }
 
